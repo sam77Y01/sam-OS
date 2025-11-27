@@ -47,4 +47,9 @@ Feel free to explore, modify, and share!
 
 ---
 
+📝 Feedback
+If you encounter any bugs or issues, please report them in the comments section 💬.  
+Your feedback helps the samOS project improve faster and move toward a stable release 🚀.
+
+---
 Made with ❤️ by **Sam77**
