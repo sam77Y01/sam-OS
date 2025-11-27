@@ -1,38 +1,51 @@
-**sam‑OS** is a lightweight, open‑source Linux‑based operating system built entirely from scratch as a fun and experimental project.  
-It embraces minimalism, the spirit of free software, and offers a transparent look into the process of building an OS from the ground up.
+# 🌐 samOS
 
----
-
-## ⚠️ Important Notice
-
-**sam‑OS is designed to run *only* inside virtual machines** such as:
-
-- VMware
-- QEMU
-- VirtualBox
-
-It is **not intended for installation on real/physical hardware**.  
-Running it outside a VM is not supported and may result in unexpected behavior.
+Welcome to **samOS** — a fun experimental Linux-based operating system project!  
+Built on top of **Arch Linux** 🐧, samOS comes with its own official kernel and a focus on speed, simplicity, and modern design.
 
 ---
 
 ## ✨ Features
-
-- Built entirely from scratch for educational and experimental purposes
-- Minimalist Linux‑based environment
-- Fully open‑source under the GNU GPL v3 license
-- Source code available for anyone to explore, modify, and share
-- Lightweight footprint — ideal for VM experimentation
+- ⚡ **Lightweight & Fast** – optimized for performance  
+- 🏗️ **Arch Linux Base** – rolling release philosophy with flexibility  
+- 🎨 **Minimal & Modern Design** – clean UI and user experience  
 
 ---
 
-## 🛠 Getting Started
+## ⚠️ Important Notes
+- The **kernel is not yet fully complete**.  
+- For now, samOS is best suited for **testing only**.  
+- Please run it inside a **virtual machine** such as:
+  - VMware  
+  - QEMU  
+  - VirtualBox  
 
-### 1. Download the sam‑OS Image
-The latest `.img` file is available in the [**Releases**](../../releases) section of this repository.  
-Download it to your computer before proceeding.
+---
 
-### 2. Run in a VM
-#### Example with QEMU:
-```bash
-qemu-system-x86_64 -hda sam-os.img -m 1024 -vga qxl -device virtio-net-pci,netdev=netdev0   
+## 🔮 Future Vision
+We are actively working on both the **operating system** and its **kernel**.  
+Once development reaches completion, samOS will be ready to serve as a **full primary operating system** that you can install directly on your machine 💻.
+
+---
+
+## 🚀 Getting Started
+1. Head over to the **[Releases](../../releases)** section.  
+2. Download the latest samOS build.  
+3. Install and run it inside your preferred **virtual machine** (VMware, QEMU, VirtualBox).  
+
+---
+
+## 🎯 Project Goals
+samOS is not intended to replace your daily driver OS (yet).  
+Instead, it’s a **fun exploration project** into Linux, kernels, and design philosophy.  
+Think of it as a sandbox for experimenting with ideas 💡.
+
+---
+
+## 📜 License
+This project is released under an open-source license.  
+Feel free to explore, modify, and share!
+
+---
+
+Made with ❤️ by **Sam77**
