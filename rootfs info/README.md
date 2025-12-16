@@ -14,7 +14,7 @@ It does not include the full rootfs image itself — the complete compressed roo
 
 ## Notes
 - The **rootfs info folder** is intended only for transparency and documentation of installed packages and related information.  
-- The **full rootfs image** is published separately under [Releases](../../tags).  
+- The **full rootfs image** is published separately under [Releases](../../../tags).  
 - Users can review the package list here to understand the composition of the system before downloading the full image.  
 
 ---
